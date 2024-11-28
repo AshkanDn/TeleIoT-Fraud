@@ -1,0 +1,16 @@
+# Ignore SSH keys
+.ssh/
+
+
+# Ignore logs folder
+Logs/
+
+# Ignore build folder
+build/
+
+# Ignore .env files (configuration)
+.env
+
+# Ignore all .DS_Store files (macOS system files)
+.DS_Store
+

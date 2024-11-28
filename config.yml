@@ -1,0 +1,22 @@
+data:
+  rdata_complete: ./Data/Rdata/processed_data_complete.csv
+  rdata_events: ./Data/Rdata/processed_data_with_events.csv
+  rdata_noevent: ./Data/Rdata/processed_data_no_events.csv
+  rdata_scanned: ./Data/Rdata/processed_data_scanned.csv
+  refined: ./Data/df_refined.pkl
+  refined_enriched: ./Data/df_refined_enriched.pkl
+path:
+  Author: Ashkan Dashtban
+  Notebooks: ./Notebooks/
+  Updator: Ashkan Dashtban
+  rscripts: ./Code/
+  rscripts: ./Code/
+  data: ./Data/
+  log: ./Logs/
+  main: ./TeleIoT-Fraud/
+  maps: ./Data/Maps/
+  rdata: ./Data/Rdata/
+  report: ./Reports/
+  sdata: ./SourceData/
+reports:
+  maps: ./Reports/maps/
