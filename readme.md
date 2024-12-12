@@ -49,7 +49,7 @@ Before using the TeleIoT-Fraud project, ensure you have the following installed:
     git clone https://github.com/yourusername/TeleIoT-Fraud.git
     ```
 
-2. Install dependencies for Python and Creating TRF Environment:
+2. Install dependencies for Python and Creating TFR Environment:
     ```bash
     ./setup_env.sh
     ```
