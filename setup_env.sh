@@ -8,18 +8,18 @@
 #              installation process.
 #
 # Usage:
-#   1. Place the script in the project directory containing "requirements.txt".
+#   1. Place the script in the project directory containing "python-libs.txt".
 #   2. Make the script executable: chmod +x setup_env.sh
 #   3. Run the script: ./setup_env.sh
 #
 # Requirements:
 #   - Conda must be installed and accessible in the system PATH.
-#   - "requirements.txt" file should list the required dependencies, one per line.
+#   - "python-libs.txt" file should list the required dependencies, one per line.
 #
 # Features:
 #   - Automatically removes any existing environment with the same name.
 #   - Creates a new Conda environment with the specified Python version.
-#   - Installs packages listed in "requirements.txt".
+#   - Installs packages listed in "python-libs.txt".
 #   - Verifies Python version compatibility.
 #   - Logs successes and failures for easy troubleshooting.
 #
