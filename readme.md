@@ -2,7 +2,7 @@
 # TeleIoT-Fraud
 
 ## Overview
-TeleIoT-Fraud is a project designed to process, analyse, and model telemetry data for fraud investigation from IoT devices.
+TeleIoT-Fraud process, analyse, and model telemetry data for fraud investigation from IoT devices.
 
 The project contains various modules and scripts to process raw data, perform feature engineering, and create predictive models. It also includes notebooks for exploratory data analysis (EDA) and temporal sampling, as well as utility functions to handle the data efficiently.
 

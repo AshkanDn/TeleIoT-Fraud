@@ -1,16 +1,33 @@
-# Ignore SSH keys
+# Logs
+*.log
+
+# SSH and sensitive data
 .ssh/
+Data/
+SourceData/
+Results/
+Reports/
 
+# Jupyter Notebook checkpoints
+Notebooks/.ipynb_checkpoints/
+*-checkpoint.ipynb
 
-# Ignore logs folder
-Logs/
-
-# Ignore build folder
-build/
-
-# Ignore .env files (configuration)
+# Environment and dependencies
+venv/
 .env
 
-# Ignore all .DS_Store files (macOS system files)
+# Operating system files
 .DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build and distribution
+build/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 
