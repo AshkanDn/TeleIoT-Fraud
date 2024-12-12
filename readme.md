@@ -20,6 +20,7 @@ The project contains various modules and scripts to process raw data, perform fe
 ├── config.yml                     # Configuration file for paths and parameters
 ├── create_params_file.py          # Python script to generate parameter files
 ├── readme.md                      # Project documentation file (this file)
+├── setup_env.sh                   # Automates setting up the project dependencies
 ├── src                            # Python source code for various modules
 │   ├── eda.py                     # A class with over 20 functions for Exploratory Data Analysis on sensory data
 │   └── enrich.py                  # Data enrichment module
