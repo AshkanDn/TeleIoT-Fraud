@@ -5,7 +5,7 @@
 # Description: Automates the creation and setup of the project environment and 
 #              creates a python environment named TFR with all non-conflicting python libraries
 #              specified in a python-lib text file. It also adds the environment to the jupyter notebook env list.
-#              This script also perfomes error handling and logs the results of the 
+#              This script also perfomes robust error handling and logs the results of the 
 #              installation process for successful and faild installations without being stopped on a failed one. 
 #
 # Usage:
