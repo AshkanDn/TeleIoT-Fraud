@@ -2,10 +2,10 @@
 
 ################################################################################
 # Script Name: setup_env.sh
-# Description: Automates the creation and setup of a project environment with 
-#              specified Python version and dependencies. This script also 
-#              includes robust error handling and logs the results of the 
-#              installation process.
+# Description: Automates the creation and setup of a project environment and 
+#              creates a python environment named TFR with all non-conflicting python libraries
+#              specified in a python-lib text file. This script also logs the results of the 
+#              installation process showing successful and faild installations. 
 #
 # Usage:
 #   1. Place the script in the project directory containing "python-libs.txt".
