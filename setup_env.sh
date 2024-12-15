@@ -4,8 +4,9 @@
 # Script Name: setup_env.sh
 # Description: Automates the creation and setup of the project environment and 
 #              creates a python environment named TFR with all non-conflicting python libraries
-#              specified in a python-lib text file. This script also logs the results of the 
-#              installation process showing successful and faild installations. 
+#              specified in a python-lib text file. It also adds the environment to the jupyter notebook env list.
+#              This script also perfomes error handling and logs the results of the 
+#              installation process for successful and faild installations without being stopped on a failed one. 
 #
 # Usage:
 #   1. Place the script in the project directory containing "python-libs.txt".
