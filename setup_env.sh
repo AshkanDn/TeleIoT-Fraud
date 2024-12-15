@@ -2,7 +2,7 @@
 
 ################################################################################
 # Script Name: setup_env.sh
-# Description: Automates the creation and setup of a Conda environment with 
+# Description: Automates the creation and setup of a project environment with 
 #              specified Python version and dependencies. This script also 
 #              includes robust error handling and logs the results of the 
 #              installation process.
@@ -42,7 +42,7 @@ set -euo pipefail
 readonly ENV_NAME="TFR"
 readonly PYTHON_VERSION="3.10.4"
 readonly IPYKERNEL_VERSION="6.29.0"
-readonly REQUIREMENTS_FILE="requirements.txt"
+readonly REQUIREMENTS_FILE="python-libs.txt"
 readonly FAILED_LOG="failed_installations.log"
 readonly SUCCESS_LOG="installation_success.log"
 readonly DATE_FORMAT="+%Y-%m-%d %H:%M:%S"
