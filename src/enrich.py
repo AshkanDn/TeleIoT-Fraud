@@ -69,10 +69,10 @@ import seaborn as sns
 import folium
 import pywt
 from sklearn.decomposition import PCA
-from typing import Union
+from typing import Union, any
+import logging
 
 # Logging Configuration
-import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 
