@@ -92,7 +92,7 @@ from typing import Optional, Union
 import matplotlib.pyplot as plt
 import folium
 
-# Initialize logging
+# Initialise logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
