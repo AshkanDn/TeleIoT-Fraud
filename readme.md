@@ -23,8 +23,7 @@ The project contains various modules and scripts to process raw data, perform fe
 ├── setup_env.sh                   # Automates setting up the project dependencies
 ├── src                            # Python source code for various modules
 │   ├── eda.py                     # A class with over 20 functions for Exploratory Data 
-│   └── enrich.py                  # Data enrichment module
-Analysis on sensory data
+│   └── enrich.py                  # Data enrichment module containing an enrichment pipeline with >10 fucntions
 │   ├── dataloader.py              # Two intelligent fucntions for flexible save&load during the development phase 
 └── unittest                       # Unit tests for verifying project components
     └── addGforce.py               # Unit test for adding G-force related calculations
