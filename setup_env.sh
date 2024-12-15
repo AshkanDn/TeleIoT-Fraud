@@ -43,7 +43,7 @@ set -euo pipefail
 readonly ENV_NAME="TFR"
 readonly PYTHON_VERSION="3.10.4"
 readonly IPYKERNEL_VERSION="6.29.0"
-readonly REQUIREMENTS_FILE="python-libs.txt"
+readonly PYTHON_LIBS="python-libs.txt"
 readonly FAILED_LOG="failed_installations.log"
 readonly SUCCESS_LOG="installation_success.log"
 readonly DATE_FORMAT="+%Y-%m-%d %H:%M:%S"
@@ -87,9 +87,9 @@ python -m ipykernel install --user --name="$ENV_NAME" --display-name "Python ($E
 # Set environment variable to disable file validation
 export PYDEVD_DISABLE_FILE_VALIDATION=1
 
-# Check if requirements.txt exists
-if [[ ! -f "$REQUIREMENTS_FILE" ]]; then
-    log_message "Error: File '$REQUIREMENTS_FILE' not found. Exiting." "ERROR"
+# Check if python library list exists
+if [[ ! -f "$PYTHON_LIBS" ]]; then
+    log_message "Error: File '$PYTHON_LIBS' not found. Exiting." "ERROR"
     exit 1
 fi
 
@@ -107,7 +107,7 @@ while IFS= read -r package || [[ -n "$package" ]]; do
         log_message "Failed to install: $package." "ERROR"
     fi
 
-done < "$REQUIREMENTS_FILE"
+done < "$PYTHON_LIBS"
 
 # Ensure Python version compatibility
 log_message "Verifying Python version compatibility." "INFO"
