@@ -48,7 +48,7 @@ Before using the TeleIoT-Fraud project, ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/TeleIoT-Fraud.git
+    git clone https://github.com/AshkanDn/TeleIoT-Fraud.git
     ```
 
 2. Install dependencies for Python and Creating TFR Environment:
